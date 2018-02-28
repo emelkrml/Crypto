@@ -69,7 +69,6 @@ namespace cryptoApp
 
             foreach (byte b in hash)
             {
-                //{0:x4} gibi formatlar da kullanılabilir.
                 stringBuilder.AppendFormat("{0:x2}", b);
             }
             return stringBuilder.ToString();
