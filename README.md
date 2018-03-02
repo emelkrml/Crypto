@@ -34,7 +34,7 @@ SHA1’ de girişi yapılan bir girdinin çıkışı olarak 160-bit uzunluğunda
 
 > “_Oturarak ayakta alkışlıyorum_” girdisi 40 karakterden oluşan  “_717ff8f9ae35f7df358ebd8f34d3fad04847380f_” çıktısını oluşturur.
 
-Teknik özellikler dışında SHA1 den bahsedecek olursak; Kriptanalistlerin 2005'te yaptığı bir saldırıyla SHA1'in yeterince güvenli olmadığını ispatladılar. Bu yüzden 2010' dan beri SHA1 yerine daha güvenli olan SHA2 ailei kullanılmaya başlandı.
+Teknik özellikler dışında SHA1 den bahsedecek olursak; Kriptanalistlerin 2005'te yaptığı bir saldırıyla SHA1'in yeterince güvenli olmadığını ispatladılar. Bu yüzden 2010' dan beri SHA1 yerine daha güvenli olan SHA2 ailesi kullanılmaya başlandı.
 
 Microsoft, Google, Apple ve Mozilla SSL Sertifikalarından  2017 itibarıyla SHA1 desteğini çekeceklerini açıkladılar. Daha sonra ise Google SHA1’ e çakışma saldırısı yaptıklarını ve iki farklı PDF dosyasından aynı SHA1 özet çıktıyı aldıklarını ispatlayarak SHA1 in kırıldığını duyurdular.
 
@@ -46,7 +46,7 @@ Güven sorununun somut olarak ispatlanmasına karşın; Git, Mercurial ve Monoto
 Bu durumun nedeni; Windows XP, SP2 veya daha üst sürümü çalıştıran sistemlerin SHA2 için desteklenmemiş olmasıydı.
 Bu süreci hızlandırmak için Google Chrome ekibi, web tarayıcısının 2014'ün sonlarından 2015'in başlarına kadar bir süre boyunca SHA1'e bağımlı TLS sertifikalarını kademeli olarak reddetmek için bir plan yaptıklarını açıkladı.
 
-Benzer şekilde Microsoft, Internet Explorer ve Edge'in kamuya açık SHA1 imzalı TLS sertifikaları Şubat 2017'den itibaren onaylamayacağını açıkladı. Böyleye SHA2’ ye geçiş hızlandırılmaya başladı.
+Benzer şekilde Microsoft, Internet Explorer ve Edge'in kamuya açık SHA1 imzalı TLS sertifikaları Şubat 2017'den itibaren onaylamayacağını açıkladı. Böylece SHA2’ ye geçiş hızlandırılmaya başladı.
 
 > SHA2 ailesi dememizden de anlaşılacağı gibi SHA2 alt gruplara sahiptir.
 
